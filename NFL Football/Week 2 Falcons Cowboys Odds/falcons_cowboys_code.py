@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 #*#*#*#*#*#*#*##
 
 # Reads in the csv file I downloaded via nflfastR
-data = pd.read_csv('play_by_play_2020.csv', low_memory=False)
+data = pd.read_csv('../../play_by_play_2020.csv', low_memory=False)
 
 # Selects the data needed from the 2020 week 2 Cowboys Falcons game
 new_data = (data[["week", "home_team", "away_team", "game_seconds_remaining", "vegas_home_wp"]]
